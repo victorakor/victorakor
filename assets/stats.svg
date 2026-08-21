@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="128" viewBox="0 0 420 128" role="img" aria-label="Profile statistics">
+<style>
+  .n{font:700 26px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#00ADD8}
+  .k{font:400 11px 'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif;fill:#8b949e}
+  .fade{opacity:0;animation:fade .7s cubic-bezier(.2,.8,.2,1) forwards}
+  @keyframes fade{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+  @media(prefers-reduced-motion:reduce){.fade{animation:none!important;opacity:1!important}}
+</style>
+<rect x="0.5" y="0.5" width="419" height="127" rx="8" fill="#0d1117" stroke="#1f2733"/>
+<g class="fade" style="animation-delay:0.00s">
+<text x="52.5" y="62" class="n" text-anchor="middle">10</text>
+<text x="52.5" y="84" class="k" text-anchor="middle">Public repos</text>
+</g>
+<g class="fade" style="animation-delay:0.11s">
+<text x="157.5" y="62" class="n" text-anchor="middle">2.0 MB</text>
+<text x="157.5" y="84" class="k" text-anchor="middle">Public code</text>
+</g>
+<g class="fade" style="animation-delay:0.22s">
+<text x="262.5" y="62" class="n" text-anchor="middle">9</text>
+<text x="262.5" y="84" class="k" text-anchor="middle">Languages</text>
+</g>
+<g class="fade" style="animation-delay:0.33s">
+<text x="367.5" y="62" class="n" text-anchor="middle">Go</text>
+<text x="367.5" y="84" class="k" text-anchor="middle">Primary language</text>
+</g>
+<rect x="20" y="104" height="2" rx="1" fill="#00ADD8" opacity="0.55" width="0"><animate attributeName="width" from="0" to="380" dur="1s" begin="0.4s" fill="freeze"/></rect>
+</svg>

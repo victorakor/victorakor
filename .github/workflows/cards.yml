@@ -1,0 +1,62 @@
+name: Refresh profile cards
+
+# Regenerates the animated SVG cards embedded in the profile README.
+#
+# The cards are generated here rather than fetched from a hosted service because
+# the popular ones (github-readme-stats and friends) render as broken images
+# whenever their shared deployment is paused or rate-limited. Owning the
+# generation means the profile cannot be broken by someone else's outage.
+
+on:
+  schedule:
+    # 04:23 UTC on Mondays. Language mix changes on the order of weeks, not
+    # hours, so a daily run would burn Actions minutes to rewrite identical
+    # files. Off-peak and off-the-hour: Actions silently drops scheduled runs
+    # when the shared runner pool is saturated, and :00 is the worst minute.
+    - cron: "23 4 * * 1"
+  push:
+    branches: [main]
+    paths:
+      - ".github/scripts/gen_cards.py"
+      - ".github/workflows/cards.yml"
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  cards:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          # No cache key: the generator uses only the standard library, so there
+          # is nothing to install and nothing to cache.
+
+      - name: Generate cards
+        env:
+          # The default token is enough -- every figure comes from public data.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROFILE_USER: ${{ github.repository_owner }}
+        run: python .github/scripts/gen_cards.py --out assets
+
+      - name: Commit any changes
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets
+          # Nothing to do when the figures are unchanged; committing anyway would
+          # add an empty commit to the profile history every week.
+          if git diff --cached --quiet; then
+            echo "Cards unchanged."
+            exit 0
+          fi
+          git commit -m "Refresh profile cards"
+          git push
