@@ -16,48 +16,48 @@
 <clipPath id="barclip"><rect x="20" y="62" width="380" height="12" rx="6"/></clipPath>
 <rect x="20" y="62" width="380" height="12" rx="6" fill="#161b22"/>
 <g clip-path="url(#barclip)">
-<rect x="20.00" y="62" height="12" width="0" fill="#00ADD8"><animate attributeName="width" from="0" to="152.70" dur="0.8s" begin="0.15s" fill="freeze"/></rect>
-<rect x="172.70" y="62" height="12" width="0" fill="#f1e05a"><animate attributeName="width" from="0" to="97.00" dur="0.8s" begin="0.24s" fill="freeze"/></rect>
-<rect x="269.70" y="62" height="12" width="0" fill="#e34c26"><animate attributeName="width" from="0" to="78.87" dur="0.8s" begin="0.33s" fill="freeze"/></rect>
-<rect x="348.58" y="62" height="12" width="0" fill="#663399"><animate attributeName="width" from="0" to="25.33" dur="0.8s" begin="0.42s" fill="freeze"/></rect>
-<rect x="373.90" y="62" height="12" width="0" fill="#3572A5"><animate attributeName="width" from="0" to="22.41" dur="0.8s" begin="0.51s" fill="freeze"/></rect>
-<rect x="396.31" y="62" height="12" width="0" fill="#89e051"><animate attributeName="width" from="0" to="1.31" dur="0.8s" begin="0.60s" fill="freeze"/></rect>
-<rect x="397.62" y="62" height="12" width="0" fill="#6e7681"><animate attributeName="width" from="0" to="2.38" dur="0.8s" begin="0.69s" fill="freeze"/></rect>
+<rect x="20.00" y="62" height="12" width="0" fill="#e34c26"><animate attributeName="width" from="0" to="170.58" dur="0.8s" begin="0.15s" fill="freeze"/></rect>
+<rect x="190.58" y="62" height="12" width="0" fill="#00ADD8"><animate attributeName="width" from="0" to="98.39" dur="0.8s" begin="0.24s" fill="freeze"/></rect>
+<rect x="288.97" y="62" height="12" width="0" fill="#f1e05a"><animate attributeName="width" from="0" to="59.79" dur="0.8s" begin="0.33s" fill="freeze"/></rect>
+<rect x="348.76" y="62" height="12" width="0" fill="#3572A5"><animate attributeName="width" from="0" to="32.28" dur="0.8s" begin="0.42s" fill="freeze"/></rect>
+<rect x="381.04" y="62" height="12" width="0" fill="#663399"><animate attributeName="width" from="0" to="15.09" dur="0.8s" begin="0.51s" fill="freeze"/></rect>
+<rect x="396.14" y="62" height="12" width="0" fill="#384d54"><animate attributeName="width" from="0" to="1.44" dur="0.8s" begin="0.60s" fill="freeze"/></rect>
+<rect x="397.58" y="62" height="12" width="0" fill="#6e7681"><animate attributeName="width" from="0" to="2.42" dur="0.8s" begin="0.69s" fill="freeze"/></rect>
 </g>
 <g class="fade" style="animation-delay:0.35s">
-<circle cx="25" cy="100" r="5" fill="#00ADD8"/>
-<text x="37" y="104" class="l" fill="#e6edf3">Go</text>
-<text x="37" y="119" class="v" fill="#8b949e">40.2%</text>
+<circle cx="25" cy="100" r="5" fill="#e34c26"/>
+<text x="37" y="104" class="l" fill="#e6edf3">HTML</text>
+<text x="37" y="119" class="v" fill="#8b949e">44.9%</text>
 </g>
 <g class="fade" style="animation-delay:0.42s">
-<circle cx="215" cy="100" r="5" fill="#f1e05a"/>
-<text x="227" y="104" class="l" fill="#e6edf3">JavaScript</text>
-<text x="227" y="119" class="v" fill="#8b949e">25.5%</text>
+<circle cx="215" cy="100" r="5" fill="#00ADD8"/>
+<text x="227" y="104" class="l" fill="#e6edf3">Go</text>
+<text x="227" y="119" class="v" fill="#8b949e">25.9%</text>
 </g>
 <g class="fade" style="animation-delay:0.49s">
-<circle cx="25" cy="134" r="5" fill="#e34c26"/>
-<text x="37" y="138" class="l" fill="#e6edf3">HTML</text>
-<text x="37" y="153" class="v" fill="#8b949e">20.8%</text>
+<circle cx="25" cy="134" r="5" fill="#f1e05a"/>
+<text x="37" y="138" class="l" fill="#e6edf3">JavaScript</text>
+<text x="37" y="153" class="v" fill="#8b949e">15.7%</text>
 </g>
 <g class="fade" style="animation-delay:0.56s">
-<circle cx="215" cy="134" r="5" fill="#663399"/>
-<text x="227" y="138" class="l" fill="#e6edf3">CSS</text>
-<text x="227" y="153" class="v" fill="#8b949e">6.7%</text>
+<circle cx="215" cy="134" r="5" fill="#3572A5"/>
+<text x="227" y="138" class="l" fill="#e6edf3">Python</text>
+<text x="227" y="153" class="v" fill="#8b949e">8.5%</text>
 </g>
 <g class="fade" style="animation-delay:0.63s">
-<circle cx="25" cy="168" r="5" fill="#3572A5"/>
-<text x="37" y="172" class="l" fill="#e6edf3">Python</text>
-<text x="37" y="187" class="v" fill="#8b949e">5.9%</text>
+<circle cx="25" cy="168" r="5" fill="#663399"/>
+<text x="37" y="172" class="l" fill="#e6edf3">CSS</text>
+<text x="37" y="187" class="v" fill="#8b949e">4.0%</text>
 </g>
 <g class="fade" style="animation-delay:0.70s">
-<circle cx="215" cy="168" r="5" fill="#89e051"/>
-<text x="227" y="172" class="l" fill="#e6edf3">Shell</text>
-<text x="227" y="187" class="v" fill="#8b949e">0.3%</text>
+<circle cx="215" cy="168" r="5" fill="#384d54"/>
+<text x="227" y="172" class="l" fill="#e6edf3">Dockerfile</text>
+<text x="227" y="187" class="v" fill="#8b949e">0.4%</text>
 </g>
 <g class="fade" style="animation-delay:0.77s">
 <circle cx="25" cy="202" r="5" fill="#6e7681"/>
 <text x="37" y="206" class="l" fill="#e6edf3">Other</text>
 <text x="37" y="221" class="v" fill="#8b949e">0.6%</text>
 </g>
-<text x="20" y="284" class="l fade" style="animation-delay:0.9s">2.0 MB across 10 public repositories</text>
+<text x="20" y="284" class="l fade" style="animation-delay:0.9s">2.4 MB across 12 public repositories</text>
 </svg>

@@ -8,11 +8,11 @@
 </style>
 <rect x="0.5" y="0.5" width="419" height="127" rx="8" fill="#0d1117" stroke="#1f2733"/>
 <g class="fade" style="animation-delay:0.00s">
-<text x="52.5" y="62" class="n" text-anchor="middle">10</text>
+<text x="52.5" y="62" class="n" text-anchor="middle">12</text>
 <text x="52.5" y="84" class="k" text-anchor="middle">Public repos</text>
 </g>
 <g class="fade" style="animation-delay:0.11s">
-<text x="157.5" y="62" class="n" text-anchor="middle">2.0 MB</text>
+<text x="157.5" y="62" class="n" text-anchor="middle">2.4 MB</text>
 <text x="157.5" y="84" class="k" text-anchor="middle">Public code</text>
 </g>
 <g class="fade" style="animation-delay:0.22s">
@@ -20,7 +20,7 @@
 <text x="262.5" y="84" class="k" text-anchor="middle">Languages</text>
 </g>
 <g class="fade" style="animation-delay:0.33s">
-<text x="367.5" y="62" class="n" text-anchor="middle">Go</text>
+<text x="367.5" y="62" class="n" text-anchor="middle">HTML</text>
 <text x="367.5" y="84" class="k" text-anchor="middle">Primary language</text>
 </g>
 <rect x="20" y="104" height="2" rx="1" fill="#00ADD8" opacity="0.55" width="0"><animate attributeName="width" from="0" to="380" dur="1s" begin="0.4s" fill="freeze"/></rect>
