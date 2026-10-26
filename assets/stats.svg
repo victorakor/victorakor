@@ -8,15 +8,15 @@
 </style>
 <rect x="0.5" y="0.5" width="419" height="127" rx="8" fill="#0d1117" stroke="#1f2733"/>
 <g class="fade" style="animation-delay:0.00s">
-<text x="52.5" y="62" class="n" text-anchor="middle">17</text>
+<text x="52.5" y="62" class="n" text-anchor="middle">18</text>
 <text x="52.5" y="84" class="k" text-anchor="middle">Public repos</text>
 </g>
 <g class="fade" style="animation-delay:0.11s">
-<text x="157.5" y="62" class="n" text-anchor="middle">2.6 MB</text>
+<text x="157.5" y="62" class="n" text-anchor="middle">2.9 MB</text>
 <text x="157.5" y="84" class="k" text-anchor="middle">Public code</text>
 </g>
 <g class="fade" style="animation-delay:0.22s">
-<text x="262.5" y="62" class="n" text-anchor="middle">9</text>
+<text x="262.5" y="62" class="n" text-anchor="middle">10</text>
 <text x="262.5" y="84" class="k" text-anchor="middle">Languages</text>
 </g>
 <g class="fade" style="animation-delay:0.33s">
