@@ -16,11 +16,11 @@
 <clipPath id="barclip"><rect x="20" y="62" width="380" height="12" rx="6"/></clipPath>
 <rect x="20" y="62" width="380" height="12" rx="6" fill="#161b22"/>
 <g clip-path="url(#barclip)">
-<rect x="20.00" y="62" height="12" width="0" fill="#e34c26"><animate attributeName="width" from="0" to="140.34" dur="0.8s" begin="0.15s" fill="freeze"/></rect>
-<rect x="160.34" y="62" height="12" width="0" fill="#00ADD8"><animate attributeName="width" from="0" to="79.80" dur="0.8s" begin="0.24s" fill="freeze"/></rect>
-<rect x="240.14" y="62" height="12" width="0" fill="#f1e05a"><animate attributeName="width" from="0" to="51.02" dur="0.8s" begin="0.33s" fill="freeze"/></rect>
-<rect x="291.16" y="62" height="12" width="0" fill="#3178c6"><animate attributeName="width" from="0" to="48.17" dur="0.8s" begin="0.42s" fill="freeze"/></rect>
-<rect x="339.32" y="62" height="12" width="0" fill="#3572A5"><animate attributeName="width" from="0" to="45.26" dur="0.8s" begin="0.51s" fill="freeze"/></rect>
+<rect x="20.00" y="62" height="12" width="0" fill="#e34c26"><animate attributeName="width" from="0" to="140.35" dur="0.8s" begin="0.15s" fill="freeze"/></rect>
+<rect x="160.35" y="62" height="12" width="0" fill="#00ADD8"><animate attributeName="width" from="0" to="79.80" dur="0.8s" begin="0.24s" fill="freeze"/></rect>
+<rect x="240.15" y="62" height="12" width="0" fill="#f1e05a"><animate attributeName="width" from="0" to="51.02" dur="0.8s" begin="0.33s" fill="freeze"/></rect>
+<rect x="291.17" y="62" height="12" width="0" fill="#3178c6"><animate attributeName="width" from="0" to="48.17" dur="0.8s" begin="0.42s" fill="freeze"/></rect>
+<rect x="339.34" y="62" height="12" width="0" fill="#3572A5"><animate attributeName="width" from="0" to="45.25" dur="0.8s" begin="0.51s" fill="freeze"/></rect>
 <rect x="384.59" y="62" height="12" width="0" fill="#663399"><animate attributeName="width" from="0" to="12.24" dur="0.8s" begin="0.60s" fill="freeze"/></rect>
 <rect x="396.83" y="62" height="12" width="0" fill="#6e7681"><animate attributeName="width" from="0" to="3.17" dur="0.8s" begin="0.69s" fill="freeze"/></rect>
 </g>
